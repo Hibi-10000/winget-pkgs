@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+PackageIdentifier: Ablaze.Floorp
+PackageVersion: 11.13.0
+Platform:
+- Windows.Desktop
+MinimumOSVersion: 10.0.17763.0
+Commands:
+- floorp
+Protocols:
+- http
+- https
+FileExtensions:
+- htm
+- html
+- url
+ReleaseDate: null
+Scope: machine
+InstallerLocale: en-US
+InstallerType: nullsoft
+InstallModes:
+- silent
+- silentWithProgress
+UpgradeBehavior: install
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/Floorp-Projects/Floorp/releases/download/v11.13.0/floorp-win64.installer.exe
+  InstallerSha256: 0019DFC4B32D63C1392AA264AED2253C1E0C2FB09216F8E2CC269BBFB8BB49B5
+- Architecture: x86
+  InstallerUrl: https://github.com/Floorp-Projects/Floorp/releases/download/v11.13.0/floorp-win32.installer.exe
+  InstallerSha256: 0019DFC4B32D63C1392AA264AED2253C1E0C2FB09216F8E2CC269BBFB8BB49B5
+ManifestType: installer
+ManifestVersion: 1.6.0
