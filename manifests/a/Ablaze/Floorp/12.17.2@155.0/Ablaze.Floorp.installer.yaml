@@ -24,7 +24,7 @@ FileExtensions:
 ReleaseDate: 2026-09-03
 Scope: machine
 InstallerLocale: en-US
-InstallerType: exe
+InstallerType: nullsoft
 InstallModes:
 - interactive
 - silent
@@ -35,9 +35,6 @@ InstallerSwitches:
   InstallLocation: /InstallDirectoryPath="<INSTALLPATH>"
 UpgradeBehavior: install
 ElevationRequirement: elevatesSelf
-Dependencies:
-  PackageDependencies:
-  - PackageIdentifier: Microsoft.VCRedist.2015+.x64
 Installers:
 - Architecture: x64
   InstallerUrl: https://github.com/Floorp-Projects/Floorp/releases/download/v12.17.2/floorp-windows-x86_64.installer.exe
