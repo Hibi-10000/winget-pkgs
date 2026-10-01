@@ -24,7 +24,7 @@ FileExtensions:
 ReleaseDate: 2026-09-03
 Scope: machine
 InstallerLocale: en-US
-InstallerType: nullsoft
+InstallerType: exe
 InstallModes:
 - interactive
 - silent
