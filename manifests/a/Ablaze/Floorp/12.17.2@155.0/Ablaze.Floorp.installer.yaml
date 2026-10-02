@@ -27,7 +27,7 @@ InstallerSwitches:
   SilentWithProgress: /S /PreventRebootRequired=true
   InstallLocation: /InstallDirectoryPath="<INSTALLPATH>"
 UpgradeBehavior: install
-ElevationRequirement: elevatesRequired
+ElevationRequirement: elevationRequired
 Installers:
 - Architecture: x64
   InstallerUrl: https://github.com/Floorp-Projects/Floorp/releases/download/v12.17.2/floorp-windows-x86_64.installer.exe
